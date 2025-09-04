@@ -5,7 +5,7 @@ date: 2025-08-30 00:23:14 -0500
 categories: [mlops, engineering]
 tags: [production, deployment, pytorch, deepspeed, quantization, monitoring, systems]
 author: "Kewal Mishra"
-image: /assets/img/production.png 
+image: /assets/img/production.png
 ---
 
 You've spent weeks perfecting a model in a Jupyter Notebook, hitting 95% accuracy. You're ready to deploy. But production is a different beast, where your model's biggest challenges aren't accuracy, but reality.
