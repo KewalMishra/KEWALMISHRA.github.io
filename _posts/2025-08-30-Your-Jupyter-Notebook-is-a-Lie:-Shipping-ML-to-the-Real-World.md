@@ -7,7 +7,7 @@ tags: [production, deployment, pytorch, deepspeed, quantization, monitoring, sys
 author: "Kewal Mishra"
 image: assets/img/cover.avif
 ---
-![cover](/assets/img/cover.avif)
+<!-- ![cover](/assets/img/cover.avif) -->
 
 You've spent weeks perfecting a model in a Jupyter Notebook, hitting 95% accuracy. You're ready to deploy. But production is a different beast, where your model's biggest challenges aren't accuracy, but reality.
 
