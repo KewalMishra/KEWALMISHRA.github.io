@@ -5,7 +5,7 @@ date: 2025-08-30 00:23:14 -0500
 categories: [mlops, engineering]
 tags: [production, deployment, pytorch, deepspeed, quantization, monitoring, systems]
 author: "Kewal Mishra"
-image: /assets/img/production.png
+image: ![cover](/assets/img/cover.avif)
 ---
 ![cover](/assets/img/production.png)
 
