@@ -1,2 +1,46 @@
 /* Optional custom styles. */
-body { line-height: 1.6; }
+body { line-height: 1.7; }
+
+.hero {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	padding: 1rem 0 1.5rem;
+}
+
+.hero__avatar {
+	width: 112px;
+	height: 112px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 4px 16px rgba(0,0,0,.08);
+}
+
+.hero__content p {
+	margin: .25rem 0;
+}
+
+.btn {
+	display: inline-block;
+	padding: .5rem .9rem;
+	background: #0e7afe;
+	color: white !important;
+	border-radius: .5rem;
+	text-decoration: none;
+}
+
+/* Adjust top spacing under the site title to avoid double name feel */
+.page-content {
+	padding-top: .5rem;
+}
+
+/* Minima shows page title; keep it subtle */
+.post-list-heading, .page-heading {
+	font-size: 1.25rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+	.hero { flex-direction: column; align-items: flex-start; }
+	.hero__avatar { width: 88px; height: 88px; }
+}
