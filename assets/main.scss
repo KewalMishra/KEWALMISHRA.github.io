@@ -1,0 +1,28 @@
+---
+---
+@import "minima";
+
+/* Site tweaks */
+.page-content { padding-top: .5rem; }
+
+/* Hero layout: text left, image right */
+.hero { display: flex; align-items: center; gap: 1.5rem; padding: 1.25rem 0 .5rem; }
+.hero--right { flex-direction: row; }
+.hero__avatar { width: 120px; height: 120px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+.hero__content p { margin: .35rem 0; }
+.btn { display: inline-block; padding: .5rem .9rem; background: #0e7afe; color: #fff !important; border-radius: .5rem; text-decoration: none; }
+
+/* Home post list polish */
+.post-list-heading { font-size: 1.25rem; font-weight: 600; margin-top: 1.25rem; }
+.post-list > li { margin-bottom: 1rem; }
+.post-list > li .post-meta { display: block; margin-bottom: .25rem; }
+.post-list > li .post-link { font-weight: 600; font-size: 1.05rem; }
+
+/* Hide RSS subscribe on home */
+.feed-subscribe { display: none !important; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .hero { flex-direction: column; align-items: flex-start; }
+  .hero__avatar { width: 92px; height: 92px; }
+}
