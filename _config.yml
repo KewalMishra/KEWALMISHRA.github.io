@@ -1,7 +1,10 @@
 title: Kewal Mishra
-description: Writing about things I like.
+description: AI solutions architect building agentic and generative AI systems for healthcare and life sciences.
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 show_excerpts: false
+header_pages:
+  - projects.md
+  - about.md
