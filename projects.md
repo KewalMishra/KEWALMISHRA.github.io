@@ -4,24 +4,24 @@ title: Projects
 permalink: /projects/
 ---
 
-## BioGraph Agent
+## Selected Work
 
-**LangGraph + NVIDIA BioNeMo for translational research workflows**
+### BioGraph Agent
 
-BioGraph Agent is a life sciences agent framework that shows how I think about AI products in regulated healthcare and life sciences environments. The project combines LangGraph orchestration, a BioNeMo Evo2 integration boundary, governance checks, evaluation rubrics, and product-facing documentation.
+**Target diligence workbench for translational AI**
 
-It is built around a cohort-to-target validation scenario: given an EHR/omics cohort, molecular targets, and reference/alternate sequences, the graph produces a research brief with evidence, BioNeMo-style signals, readiness scoring, and human-review guardrails.
+BioGraph Agent is the portfolio artifact I wanted to exist: not a generic agent demo, but a compact product system for HCLS target prioritization. It combines LangGraph orchestration, BioNeMo-style genomic model signals, cohort semantics, governance controls, expected-ranking benchmarks, and generated dossiers.
 
-<p><a class="btn" href="https://github.com/KewalMishra/bionemo-langgraph-agent-framework">Open GitHub repo</a></p>
+<p><a class="btn" href="/biograph-agent/">Read case study</a> <a class="btn btn--secondary" href="https://github.com/KewalMishra/bionemo-langgraph-agent-framework">Open GitHub</a></p>
 
-### What It Shows
+**What it demonstrates**
 
-- Agent design with explicit state, tool boundaries, and review gates.
-- BioNeMo integration as a portable adapter rather than a hard-coded demo dependency.
-- HCLS product thinking: intended use, governance, evaluation, and adoption metrics.
-- Documentation for architecture, product framing, governance, evaluation, and roadmap.
+- Agent graph design with typed state, branching, adapters, critic review, and audit controls.
+- HCLS product judgment: intended use, cohort lineage, model provenance, human review, and success metrics.
+- Translational science framing: clinical cohorts, omics evidence, sequence-level model priors, target risks, and next-best experiments.
+- Engineering finish: tests, CI, CLI, benchmark scenarios, JSON state export, and static HTML dossier output.
 
-### Why It Matters
+### Production AI Patterns I Write About
 
-AI is already strong at producing code. The harder product problem is knowing what should be built, where it fits into scientific workflows, how it should be evaluated, and what trust boundaries must exist before users can adopt it. BioGraph Agent is a compact artifact for that point of view.
+I also use the blog to turn hands-on implementation experience into practical writing: shipping notebooks to production systems, agent basics, RAG, evaluation, and the operational details that decide whether a model becomes a product.
 

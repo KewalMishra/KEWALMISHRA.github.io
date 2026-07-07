@@ -8,6 +8,8 @@ I am an AI solutions architect focused on healthcare and life sciences, with 6+ 
 
 I have led technical discovery, solution scoping, and deployment for HIPAA/SOC2-conscious AI platforms across pharmaceutical, biotech, and academic medical center customers. Recent work includes agentic research assistants, knowledge graphs, virtual cell and foundation model workflows, EHR-derived cohort discovery, target validation, and evaluation systems for groundedness and tool use.
 
+The direction I am moving toward is product leadership in HCLS AI: owning the translation between scientific pain points, AI system design, deployment constraints, and adoption metrics.
+
 ## What I Build
 
 - Agentic research assistants using planner, retrieval, tool-use, critic, and evaluation loops.
@@ -30,4 +32,4 @@ Worked on protein foundation models, multi-GPU training on RHEL/SLURM HPC cluste
 
 I want to help build AI products that scientists and clinicians can actually trust and adopt. That means pairing strong engineering with product judgment: clear user problems, measurable adoption outcomes, credible evaluation, and deployment patterns that respect the realities of regulated HCLS environments.
 
-You can find my latest project, BioGraph Agent, on [GitHub](https://github.com/KewalMishra/bionemo-langgraph-agent-framework).
+You can read the [BioGraph Agent case study](/biograph-agent/) or open the [GitHub repository](https://github.com/KewalMishra/bionemo-langgraph-agent-framework).

@@ -7,4 +7,5 @@ plugins:
 show_excerpts: false
 header_pages:
   - projects.md
+  - biograph-agent.md
   - about.md
