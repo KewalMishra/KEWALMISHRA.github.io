@@ -1,65 +1,51 @@
 ---
 layout: home
 title: Home
-description: AI solutions architect and product-minded builder for healthcare and life sciences agent systems.
+description: AI systems and product strategy for healthcare and life sciences.
 ---
 
-<div class="hero">
-	<div class="hero__content">
-		<p class="eyebrow">AI product engineering for HCLS</p>
-		<h1>Building agentic AI systems that scientists, platform teams, and governance leaders can actually use.</h1>
-		<p class="lede">I am Kewal Mishra, an AI solutions architect working across clinical, omics, and molecular data. My edge is turning messy biomedical workflows into production AI products with clear intended use, evaluation, and deployment paths.</p>
-		<div class="hero__actions">
-			<a class="btn" href="/biograph-agent/">View BioGraph Agent</a>
-			<a class="btn btn--secondary" href="/projects/">Projects</a>
-			<a href="/about/">About</a>
+<section class="home-hero" aria-labelledby="home-title">
+	<div class="home-hero__copy">
+		<p class="eyebrow">AI systems for healthcare and life sciences</p>
+		<h1 id="home-title">AI products for healthcare and life sciences.</h1>
+		<p class="lede">I am Kewal Mishra, an AI solutions architect who translates biomedical complexity into production systems. My work spans clinical data, omics, foundation models, evaluation, governance, and the product judgment needed to make AI useful in regulated environments.</p>
+		<div class="home-hero__links">
+			<a class="btn" href="/projects/">Selected work</a>
+			<a class="btn btn--quiet" href="/about/">About</a>
 		</div>
 	</div>
-	<img src="/assets/img/my-pic.jpg" alt="Kewal Mishra headshot" class="hero__avatar" />
-</div>
-
-<section class="proof-strip" aria-label="Selected proof points">
-	<div><strong>6+ yrs</strong><span>production AI systems</span></div>
-	<div><strong>HCLS</strong><span>pharma, biotech, AMC workflows</span></div>
-	<div><strong>Agents</strong><span>LangGraph, RAG, tool use, evals</span></div>
-	<div><strong>BioAI</strong><span>foundation models, omics, GPU systems</span></div>
+	<div class="home-hero__portrait">
+		<img src="/assets/img/my-pic.jpg" alt="Kewal Mishra headshot" />
+	</div>
 </section>
 
-<section class="section">
-	<p class="section__label">Featured project</p>
-	<div class="project-callout">
+<section class="home-section">
+	<p class="section__label">What I Bring</p>
+	<div class="capability-list">
 		<div>
-			<h2>BioGraph Agent</h2>
-			<p>A target diligence workbench for translational AI: LangGraph orchestration, BioNeMo-style genomic model signals, cohort semantics, governance controls, benchmark scenarios, and product-ready dossiers.</p>
-			<ul class="compact-list">
-				<li>Ranks molecular targets from clinical, variant, pathway, tractability, and sequence-model evidence.</li>
-				<li>Generates audit controls, next-best experiments, Markdown dossiers, and static HTML dashboards.</li>
-				<li>Ships with tests, expected-ranking benchmark scenarios, and an Evo2-ready BioNeMo adapter boundary.</li>
-			</ul>
+			<h2>AI architecture that survives production</h2>
+			<p>Agentic workflows, RAG systems, evaluation loops, GPU-aware deployment, and data pipelines designed for enterprise HCLS environments.</p>
 		</div>
-		<div class="project-actions">
-			<a class="btn" href="/biograph-agent/">Read case study</a>
-			<a class="btn btn--secondary" href="https://github.com/KewalMishra/bionemo-langgraph-agent-framework">GitHub</a>
+		<div>
+			<h2>Scientific workflow translation</h2>
+			<p>Experience mapping clinical, omics, molecular, and research operations into software systems that scientists and platform teams can actually use.</p>
+		</div>
+		<div>
+			<h2>Product judgment for regulated spaces</h2>
+			<p>Clear intended use, human review, provenance, adoption metrics, and deployment constraints treated as part of the product, not afterthoughts.</p>
 		</div>
 	</div>
 </section>
 
-<section class="section">
-	<p class="section__label">How I Think</p>
-	<div class="principle-grid">
-		<div>
-			<h3>Start with the workflow</h3>
-			<p>Agent design should begin with the decision, user, evidence gaps, and review path - not a prompt template.</p>
-		</div>
-		<div>
-			<h3>Make trust observable</h3>
-			<p>Useful HCLS AI needs provenance, evaluation, audit controls, and human review designed into the product surface.</p>
-		</div>
-		<div>
-			<h3>Bridge science and product</h3>
-			<p>The best systems translate biomedical complexity into decisions a scientist, PM, and platform team can share.</p>
-		</div>
+<section class="home-section home-section--split">
+	<div>
+		<p class="section__label">Current Direction</p>
+		<h2>From AI engineer to product leader in HCLS.</h2>
 	</div>
+	<p>I want to build the next generation of AI products for scientists, clinicians, and healthcare platform teams: tools that reduce operational burden, make evidence easier to inspect, and move from impressive demos to trusted workflows.</p>
 </section>
 
-<div id="recent-posts"></div>
+<section class="home-section">
+	<p class="section__label">Writing</p>
+	<div id="recent-posts"></div>
+</section>
