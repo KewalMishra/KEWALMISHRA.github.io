@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Home
 description: AI systems and product strategy for healthcare and life sciences.
 ---
@@ -60,9 +60,4 @@ description: AI systems and product strategy for healthcare and life sciences.
 		</div>
 		<p><a class="btn" href="/cmc-agent-lab/">Case study</a> <a class="btn btn--quiet" href="https://github.com/kewalmishra/cmc-agent-lab">GitHub</a></p>
 	</div>
-</section>
-
-<section class="home-section">
-	<p class="section__label">Writing</p>
-	<div id="recent-posts"></div>
 </section>
