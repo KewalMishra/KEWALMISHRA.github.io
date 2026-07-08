@@ -45,6 +45,23 @@ description: AI systems and product strategy for healthcare and life sciences.
 	<p>I want to build the next generation of AI products for scientists, clinicians, and healthcare platform teams: tools that reduce operational burden, make evidence easier to inspect, and move from impressive demos to trusted workflows.</p>
 </section>
 
+<section class="home-section featured-project">
+	<div>
+		<p class="section__label">Featured Work</p>
+		<h2>CMC Agent Lab</h2>
+		<p class="featured-project__dek">An auditable agentic AI workbench for late-stage pharmaceutical process development, mechanistic simulation, reinforcement-learning experiment policies, and QbD review.</p>
+	</div>
+	<div class="featured-project__meta">
+		<div class="pill-row">
+			<span>LangGraph</span>
+			<span>CMC</span>
+			<span>RL experiment planning</span>
+			<span>Mechanistic models</span>
+		</div>
+		<p><a class="btn" href="/cmc-agent-lab/">Case study</a> <a class="btn btn--quiet" href="https://github.com/kewalmishra/cmc-agent-lab">GitHub</a></p>
+	</div>
+</section>
+
 <section class="home-section">
 	<p class="section__label">Writing</p>
 	<div id="recent-posts"></div>

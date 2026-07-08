@@ -152,6 +152,31 @@ body {
 	margin: 0;
 }
 
+.featured-project {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(280px, .72fr);
+	gap: 2rem;
+	align-items: start;
+}
+
+.featured-project h2 {
+	font-size: 2rem;
+	line-height: 1.15;
+	margin: 0 0 .75rem;
+}
+
+.featured-project__dek {
+	color: var(--muted);
+	font-size: 1.04rem;
+	margin: 0;
+	max-width: 58ch;
+}
+
+.featured-project__meta {
+	border-left: 1px solid var(--line);
+	padding-left: 1.5rem;
+}
+
 .capability-list {
 	display: grid;
 	gap: 1.5rem;
@@ -277,8 +302,14 @@ body {
 	}
 
 	.home-section--split,
+	.featured-project,
 	.capability-list > div {
 		grid-template-columns: 1fr;
 		gap: .65rem;
+	}
+
+	.featured-project__meta {
+		border-left: 0;
+		padding-left: 0;
 	}
 }

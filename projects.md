@@ -6,6 +6,23 @@ permalink: /projects/
 
 ## Selected Work
 
+### CMC Agent Lab
+
+**Agentic AI for late-stage pharmaceutical process development**
+
+CMC Agent Lab is an auditable workbench for CMC/process-development decisions. It combines
+LangGraph-style orchestration, mechanistic simulation, active-learning experiment planning,
+reinforcement learning over a simulator-backed digital twin, QbD risk controls, and generated
+technical memos.
+
+<p><a class="btn" href="/cmc-agent-lab/">Read case study</a> <a class="btn btn--quiet" href="https://github.com/kewalmishra/cmc-agent-lab">GitHub</a></p>
+
+**Why it matters**
+
+- Targets late-stage pharma development, not generic RAG or early discovery.
+- Shows how to orchestrate models, simulators, optimizers, risk controls, and human review.
+- Uses RL where it belongs: learning sequential experiment-selection policies before wet-lab execution.
+
 ### BioGraph Agent
 
 **Target diligence workbench for translational AI**
