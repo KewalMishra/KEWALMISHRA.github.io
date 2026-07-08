@@ -4,8 +4,6 @@ title: CMC Agent Lab
 permalink: /cmc-agent-lab/
 ---
 
-## CMC Agent Lab
-
 **Agentic AI for late-stage pharmaceutical process development**
 
 CMC Agent Lab is an auditable AI workbench for CMC and pharmaceutical technology development.
